@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica;
+}
+
+.list-head {
+  background-color: #e0e0e0;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+.list-item {
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.list-row {
+  border-bottom: 1px solid black;
+}
+
+.disabled {
+  opacity: 0.5;
+  background: #bdbdbd;
+  color: black;
+}
+
+.list-container {
+  width: 640px;
+}
+
+.item-remove {
+  background-color: #c62828;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.item-remove:hover {
+  background-color: #b71c1c;
+}
