@@ -7,9 +7,9 @@ export default class RemoveButton extends React.Component {
 
   render() {
     return (
-      <div className="col-xs-1">
-        <div className="box">
-          <a href="#" onClick={this.props.removeItem} className="list-item item-remove">&#45;</a>
+      <div class="col-xs-1">
+        <div class="box">
+          <a href="#" onClick={this.props.removeItem} class="list-item item-remove">&#45;</a>
         </div>
       </div>
     )

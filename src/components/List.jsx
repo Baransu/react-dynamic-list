@@ -52,8 +52,8 @@ export default class List extends React.Component {
           {this.state.items.map((item, i) => {
             return (
               <ListElement
-                key={i}
-                item={item}
+                key = {i}
+                item = {item}
                 removeItem = {this.removeItem.bind(this, i)}
                 />
             );

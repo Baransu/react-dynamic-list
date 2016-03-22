@@ -7,35 +7,35 @@ export default class ListHead extends React.Component {
 
   render() {
     return (
-      <div className="row list-head">
+      <div class="row list-head">
 
-        <div className="col-xs-2">
-          <div className="box">
-            <div className="list-item">Order Date</div>
+        <div class="col-xs-2">
+          <div class="box">
+            <div class="list-item">Order Date</div>
           </div>
         </div>
 
-        <div className="col-xs-3">
-          <div className="box">
-            <div className="list-item">Order Number</div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="list-item">Order Number</div>
           </div>
         </div>
 
-        <div className="col-xs-3">
-          <div className="box">
-            <div className="list-item">Retailer</div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="list-item">Retailer</div>
           </div>
         </div>
 
-        <div className="col-xs-2">
-          <div className="box">
-            <div className="list-item">Items</div>
+        <div class="col-xs-2">
+          <div class="box">
+            <div class="list-item">Items</div>
           </div>
         </div>
 
-        <div className="col-xs-2">
-          <div className="box">
-            <div className="list-item">Status</div>
+        <div class="col-xs-2">
+          <div class="box">
+            <div class="list-item">Status</div>
           </div>
         </div>
 
